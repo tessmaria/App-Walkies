@@ -1,0 +1,134 @@
+#wrapper {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: #88ae49;
+	margin: auto;
+}
+
+ #map {
+      height: 250px;
+    }
+
+#container {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: #ffffff;
+	margin: auto;
+}
+
+#logo {
+	width: 60%;
+	display: block;
+	margin: auto;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+.title {
+	color: #ffffff !important;
+	padding-top: 10%;
+	margin: auto;
+}
+
+#signIn {
+	width: 100%;
+	height: 50%;
+	background-color: #ffffff;
+	margin-top: 8%;
+}
+
+label i {
+	font-size: 40px;
+	margin-left: 15%;
+	margin-right: 10%;
+	color: #536f22 !important;
+}
+
+ion-footer-bar {
+	background-color: #88ae49 !important;
+}
+
+ion-footer-bar i {
+	font-size: 30px;
+	color: #536f22 !important;
+	margin: auto;
+}
+
+ion-header-bar {
+	background-color: #88ae49 !important;
+}
+
+ion-header-bar i {
+	font-size: 30px;
+	color: #536f22 !important;
+	margin: 10% 0 0 5%;
+}
+
+#submit {
+	background-color: #536f22 !important;
+	color: #ffffff !important;
+	width: 70% !important;
+	margin: auto !important;
+	padding: 0.5% !important;
+}
+
+#enter {
+	text-align: center;
+	margin-top: 1%;
+}
+
+
+#question {
+	text-align: center;
+}
+
+.item img {
+	width: 50%;
+}
+
+.placeName, .district {
+	padding-left: 8%;
+}
+
+.likes {
+	padding: 2% 0 2% 10%;
+	width: 25%;
+	cursor: pointer;
+}
+
+.likes i {
+	font-size: 25px;
+	color: #536f22 !important;
+}
+
+.dislikes {
+	padding: 2% 0 2% 10%;
+	width: 25%;
+	cursor: pointer;
+}
+
+.dislikes i {
+	font-size: 25px;
+	color: #cc1100 !important;
+} 
+
+
+.floatleft {
+	float: left;
+}
+
+.floatright {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+#map {
+	width: 100%;
+	height: 400px;
+}
+

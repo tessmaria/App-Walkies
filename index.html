@@ -6,26 +6,19 @@
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
   <meta charset="utf-8">
   <link rel="stylesheet" href="http://code.ionicframework.com/1.3.3/css/ionic.css">
+  <link rel="stylesheet" href="css/master.css">
+
   <script src="http://code.ionicframework.com/1.3.3/js/ionic.bundle.js"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBA_TiBIfF9XoT9pPij8EYdsWZQaR8NS3o&callback=initMap"></script>
   <script src="./js/app.js"></script>
-  <script src="./js/states/home/home.controller.js"></script>
-  <script src="./js/states/map/map.controller.js"></script>
+  <script src="./js/controllers/park.controller.js"></script>
+  <script src="./js/controllers/map.controller.js"></script>
   <script src="./js/services/locations.service.js"></script>
 
-  <style>
-    /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-
-    #map, #homeMap {
-      height: 250px;
-    }
-
-  </style>
 </head>
 
 <body>
-  <ion-nav-bar class="bar-positive">
+  <ion-nav-bar class="bar-balanced">
     <ion-nav-back-button>
     </ion-nav-back-button>
   </ion-nav-bar>

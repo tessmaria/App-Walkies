@@ -1,15 +1,15 @@
 angular.module('app', ['ionic'])
     .config(function ($stateProvider, $urlRouterProvider) {
         $stateProvider
-            .state('home', {
+            .state('parks', {
                 url: '/',
-                templateUrl: './js/states/home/home.html',
-                controller: 'HomeController',
-                name: 'Home'
+                templateUrl: './states/parks.html',
+                controller: 'ParkController',
+                name: 'Parks'
             })
             .state('map', {
                 url: '/map/:id',
-                templateUrl: './js/states/map/map.html',
+                templateUrl: './states/map.html',
                 controller: 'MapController',
                 name: 'Map'
             })
