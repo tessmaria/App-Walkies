@@ -1,6 +1,7 @@
 [
     {
         "id": "1",
+        "type": "park",
         "name": "Stephen's Green",
         "district": "Dublin 2",
         "photo": "images/stephens_green.jpg",
@@ -14,6 +15,7 @@
     },
     {
         "id": "2",
+        "type": "park",
         "name": "Phoenix Park",
         "district": "Dublin 8",
         "photo": "images/phoenix_park.jpg",
@@ -27,6 +29,7 @@
     },
     {
         "id": "3",
+        "type": "park",
         "name": "Marlay Park",
         "district": "Dublin 16",
         "photo": "images/marlay_park.jpg",
@@ -41,6 +44,7 @@
 
     {
         "id": "4",
+        "type": "park",
         "name": "Bushy Park",
         "district": "Terenure",
         "photo": "images/bushy_park.jpg",
@@ -50,6 +54,21 @@
         "location": {
             "lat": 53.302447,
             "lng": -6.294750
+        }
+    },
+
+    {
+        "id": "5",
+        "type": "beach",
+        "name": "Dollymount Strand",
+        "district": "Clontarf East, Dublin",
+        "photo": "images/dollymount_strand.jpg",
+        "likes": 0,
+        "dislikes": 0,
+        "text": "Walk 5",
+        "location": {
+            "lat": 53.273285,
+            "lng": -6.276959
         }
     }
 ]

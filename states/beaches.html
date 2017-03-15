@@ -1,1 +1,18 @@
-<h3> wieynfpwyenf </h3>
+ <ion-view title="Choose a Park">
+     <ion-content >
+       
+        <div id="homeMap"></div>
+        <ion-list>
+           <ion-item ng-repeat="place in places | filter:{ 'type': 'beach' }" href="#/map/{{place.id}}">
+           		<img ng-src=" {{place.photo}} " class="floatleft" /> <br>
+	           <h3 class="placeName"> {{ place.name }} </h3> <br>
+	           <p class="district"> {{ place.district }} <p> <br>
+	          <!-- <div class="rating">
+		           <p class="floatleft likes"> <i class="icon ion-thumbsup"></i> {{ place.likes }} </p> <br>
+		           <p class="floatright dislikes"> <i class="icon ion-thumbsdown"></i> {{ place.dislikes }} </p>
+	           </div> -->
+           </ion-item>
+
+        </ion-list>
+      </ion-content>
+ </ion-view>

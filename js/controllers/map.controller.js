@@ -50,4 +50,15 @@ angular.module("app")
                 });
             });
         }
+
+
+        
+        $scope.increment = function(place, item) {
+            place.likes += 1;
+        };
+        $scope.decrement = function(place, item) {
+            place.dislikes += 1;
+        }
     })
+
+
