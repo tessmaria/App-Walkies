@@ -51,6 +51,9 @@ ion-header-bar {
 	background-color: #88ae49 !important;
 }
 
+.pane {
+	margin-top: 5%;
+}
 
 #submit {
 	background-color: #536f22 !important;
