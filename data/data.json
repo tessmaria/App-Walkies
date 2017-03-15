@@ -1,0 +1,29 @@
+[
+    {
+        "id": "1",
+        "name": "Stephen's Green",
+        "text": "First walk",
+        "location": {
+            "lat": 53.338174,
+            "lng": -6.259119
+        }
+    },
+    {
+        "id": "2",
+        "name": "Phoenix Park",
+        "text": "Walk 2",
+        "location": {
+            "lat": 53.355882,
+            "lng": -6.329813
+        }
+    },
+    {
+        "id": "3",
+        "name": "Marlay Park",
+        "text": "Walk 3",
+        "location": {
+            "lat": 53.273285,
+            "lng": -6.276959
+        }
+    }
+]
