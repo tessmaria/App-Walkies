@@ -10,14 +10,6 @@
       height: 250px;
     }
 
-#container {
-	width: 100%;
-	height: 100%;
-	position: fixed;
-	background-color: #ffffff;
-	margin: auto;
-}
-
 #logo {
 	width: 60%;
 	display: block;
@@ -28,7 +20,6 @@
 
 .title {
 	color: #ffffff !important;
-	padding-top: 10%;
 	margin: auto;
 }
 
@@ -60,11 +51,6 @@ ion-header-bar {
 	background-color: #88ae49 !important;
 }
 
-ion-header-bar i {
-	font-size: 30px;
-	color: #536f22 !important;
-	margin: 10% 0 0 5%;
-}
 
 #submit {
 	background-color: #536f22 !important;
@@ -90,7 +76,10 @@ ion-header-bar i {
 
 .placeName, .district {
 	padding-left: 8%;
+	padding-top: 1%;
 }
+
+
 
 .likes {
 	padding: 2% 0 2% 10%;
@@ -126,9 +115,3 @@ ion-header-bar i {
 .clear {
 	clear: both;
 }
-
-#map {
-	width: 100%;
-	height: 400px;
-}
-

@@ -2,6 +2,10 @@
     {
         "id": "1",
         "name": "Stephen's Green",
+        "district": "Dublin 2",
+        "photo": "images/stephens_green.jpg",
+        "likes": 0,
+        "dislikes": 0,
         "text": "First walk",
         "location": {
             "lat": 53.338174,
@@ -11,6 +15,10 @@
     {
         "id": "2",
         "name": "Phoenix Park",
+        "district": "Dublin 8",
+        "photo": "images/phoenix_park.jpg",
+        "likes": 0,
+        "dislikes": 0,
         "text": "Walk 2",
         "location": {
             "lat": 53.355882,
@@ -20,10 +28,28 @@
     {
         "id": "3",
         "name": "Marlay Park",
+        "district": "Dublin 16",
+        "photo": "images/marlay_park.jpg",
+        "likes": 0,
+        "dislikes": 0,
         "text": "Walk 3",
         "location": {
             "lat": 53.273285,
             "lng": -6.276959
+        }
+    },
+
+    {
+        "id": "4",
+        "name": "Bushy Park",
+        "district": "Terenure",
+        "photo": "images/bushy_park.jpg",
+        "likes": 0,
+        "dislikes": 0,
+        "text": "Walk 2",
+        "location": {
+            "lat": 53.302447,
+            "lng": -6.294750
         }
     }
 ]
