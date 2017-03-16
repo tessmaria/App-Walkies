@@ -3,7 +3,7 @@
        
         <div id="homeMap"></div>
         <ion-list>
-           <ion-item ng-repeat="place in places | filter:{ 'type': 'beach' }" href="#/map/{{place.id}}">
+           <ion-item ng-repeat="place in places | filter:{ 'type': 'mountain' }" href="#/map/{{place.id}}">
            		<img ng-src=" {{place.photo}} " class="floatleft" /> <br>
 	           <h3 class="placeName"> {{ place.name }} </h3> <br>
 	           <p class="district"> {{ place.district }} <p> <br>

@@ -7,7 +7,6 @@
         "photo": "images/stephens_green.jpg",
         "likes": 0,
         "dislikes": 0,
-        "text": "First walk",
         "location": {
             "lat": 53.338174,
             "lng": -6.259119
@@ -21,7 +20,6 @@
         "photo": "images/phoenix_park.jpg",
         "likes": 0,
         "dislikes": 0,
-        "text": "Walk 2",
         "location": {
             "lat": 53.355882,
             "lng": -6.329813
@@ -35,7 +33,6 @@
         "photo": "images/marlay_park.jpg",
         "likes": 0,
         "dislikes": 0,
-        "text": "Walk 3",
         "location": {
             "lat": 53.273285,
             "lng": -6.276959
@@ -50,7 +47,6 @@
         "photo": "images/bushy_park.jpg",
         "likes": 0,
         "dislikes": 0,
-        "text": "Walk 2",
         "location": {
             "lat": 53.302447,
             "lng": -6.294750
@@ -65,7 +61,6 @@
         "photo": "images/dollymount_strand.jpg",
         "likes": 0,
         "dislikes": 0,
-        "text": "Walk 5",
         "location": {
             "lat": 53.365979,
             "lng": -6.174239
@@ -80,7 +75,6 @@
         "photo": "images/sandymount_beach.jpg",
         "likes": 0,
         "dislikes": 0,
-        "text": "Walk 2",
         "location": {
             "lat": 53.323493,
             "lng": -6.205978
@@ -95,7 +89,6 @@
         "photo": "images/portmarnock_beach.jpg",
         "likes": 0,
         "dislikes": 0,
-        "text": "Walk 2",
         "location": {
             "lat": 53.415856,
             "lng": -6.118229
@@ -110,10 +103,178 @@
         "photo": "images/bray.jpg",
         "likes": 0,
         "dislikes": 0,
-        "text": "Walk 2",
         "location": {
             "lat": 53.198899,
             "lng": -6.096274
         }
+    },
+
+    {
+        "id": "9",
+        "type": "mountain",
+        "name": "Killiney Hill",
+        "district": "Dublin",
+        "photo": "images/killiney_hill.jpg",
+        "likes": 0,
+        "dislikes": 0,
+        "location": {
+            "lat": 53.265000,
+            "lng": -6.110556
+        }
+    },
+
+    {
+        "id": "10",
+        "type": "mountain",
+        "name": "Three Rock",
+        "district": "Dublin",
+        "photo": "images/three_rock.jpg",
+        "likes": 0,
+        "dislikes": 0,
+        "location": {
+            "lat": 53.246389,
+            "lng": -6.235833
+        }
+    },
+
+    {
+        "id": "11",
+        "type": "mountain",
+        "name": "Saggart Hill",
+        "district": "Dublin",
+        "photo": "images/saggart_hill.jpg",
+        "likes": 0,
+        "dislikes": 0,
+        "location": {
+            "lat": 53.245833,
+            "lng": -6.474722
+        }
+    },
+
+    {
+        "id": "12",
+        "type": "mountain",
+        "name": "Glendlough",
+        "district": "Glendalough, Wicklow",
+        "photo": "images/glendalough.jpg",
+        "likes": 0,
+        "dislikes": 0,
+        "location": {
+            "lat": 53.011980,
+            "lng": -6.329840
+        }
+    },
+
+    {
+        "id": "13",
+        "type": "woods",
+        "name": "Cruagh Woods",
+        "district": "South Dublin",
+        "photo": "images/cruagh_wood.jpg",
+        "likes": 0,
+        "dislikes": 0,
+        "location": {
+            "lat": 53.252574,
+            "lng": -6.206479
+        }
+    },
+
+    {
+        "id": "14",
+        "type": "woods",
+        "name": "Tribadden Woods",
+        "district": "Dublin 16",
+        "photo": "images/tribadden_wood.jpg",
+        "likes": 0,
+        "dislikes": 0,
+        "location": {
+            "lat": 53.243197,
+            "lng": -6.294222
+        }
+    },
+
+    {
+        "id": "15",
+        "type": "woods",
+        "name": "Glendalough Woods",
+        "district": "Glendalough, Wicklow",
+        "photo": "images/glendalough_woods.jpg",
+        "likes": 0,
+        "dislikes": 0,
+        "location": {
+            "lat": 53.011980,
+            "lng": -6.329840
+        }
+    },
+
+    {
+        "id": "16",
+        "type": "woods",
+        "name": "Glending Woods",
+        "district": "Blessington, Wicklow",
+        "photo": "images/glending.jpg",
+        "likes": 0,
+        "dislikes": 0,
+        "location": {
+            "lat": 53.154273,
+            "lng": -6.552781
+        }
+    },
+
+    {
+        "id": "17",
+        "type": "city",
+        "name": "River Liffey",
+        "district": "Dublin",
+        "photo": "images/liffey_river.jpg",
+        "likes": 0,
+        "dislikes": 0,
+        "location": {
+            "lat": 53.347229,
+            "lng": -6.259291
+        }
+    },
+
+    {
+        "id": "18",
+        "type": "city",
+        "name": "Grand Canal",
+        "district": "Portobello, Dublin",
+        "photo": "images/portobello.jpg",
+        "likes": 0,
+        "dislikes": 0,
+        "location": {
+            "lat": 53.332377,
+            "lng": -6.270160
+        }
+    },
+
+    {
+        "id": "19",
+        "type": "city",
+        "name": "College Green",
+        "district": "Dublin",
+        "photo": "images/college_green.jpg",
+        "likes": 0,
+        "dislikes": 0,
+        "location": {
+            "lat": 53.344432,
+            "lng": -6.260880
+        }
+    },
+
+    {
+        "id": "20",
+        "type": "city",
+        "name": "Temple Bar",
+        "district": "Dublin",
+        "photo": "images/temple_bar.jpg",
+        "likes": 0,
+        "dislikes": 0,
+        "location": {
+            "lat": 53.344938,
+            "lng": -6.267473
+        }
     }
+
 ]
