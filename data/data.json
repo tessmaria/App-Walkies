@@ -67,8 +67,53 @@
         "dislikes": 0,
         "text": "Walk 5",
         "location": {
-            "lat": 53.273285,
-            "lng": -6.276959
+            "lat": 53.365979,
+            "lng": -6.174239
+        }
+    },
+
+    {
+        "id": "6",
+        "type": "beach",
+        "name": "Sandymount Beach",
+        "district": "Strand Rd, Dublin",
+        "photo": "images/sandymount_beach.jpg",
+        "likes": 0,
+        "dislikes": 0,
+        "text": "Walk 2",
+        "location": {
+            "lat": 53.323493,
+            "lng": -6.205978
+        }
+    },
+
+    {
+        "id": "7",
+        "type": "beach",
+        "name": "Portmarnock Beach",
+        "district": "Fingal, Dublin",
+        "photo": "images/portmarnock_beach.jpg",
+        "likes": 0,
+        "dislikes": 0,
+        "text": "Walk 2",
+        "location": {
+            "lat": 53.415856,
+            "lng": -6.118229
+        }
+    },
+
+    {
+        "id": "8",
+        "type": "beach",
+        "name": "Bray Beach",
+        "district": "Bray, Wicklow",
+        "photo": "images/bray.jpg",
+        "likes": 0,
+        "dislikes": 0,
+        "text": "Walk 2",
+        "location": {
+            "lat": 53.198899,
+            "lng": -6.096274
         }
     }
 ]

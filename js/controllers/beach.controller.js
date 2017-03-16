@@ -1,5 +1,5 @@
 angular.module("app")
-    .controller('ParkController', function ($scope, locationService) {
+    .controller('BeachController', function ($scope, locationService) {
         $scope.places = [];
 
         var dublin = { lat: 53.3416542, lng: -6.2570467 };
