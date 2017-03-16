@@ -11,7 +11,7 @@
     }
 
 #logo {
-	width: 60%;
+	width: 50%;
 	display: block;
 	margin: auto;
 	padding-top: 10%;
@@ -28,6 +28,13 @@
 	height: 50%;
 	background-color: #ffffff;
 	margin-top: 8%;
+}
+
+#googleLogo {
+	width: 30%;
+	height: 20%;
+	display: block;
+	margin: auto;
 }
 
 label i {
@@ -63,9 +70,9 @@ ion-header-bar {
 	padding: 0.5% !important;
 }
 
-#enter {
+.enter {
 	text-align: center;
-	margin-top: 1%;
+	margin-top: 2%;
 }
 
 
