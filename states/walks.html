@@ -5,18 +5,15 @@
   </ion-nav-bar>
 
   <ion-nav-view class="has-header">
-              <a ui-sref="parks" ui-sref-active="active"> Parks  </a>
-              <a ui-sref="beaches" ui-sref-active="active"> Beaches  </a>
-              <a ui-sref="mountains" ui-sref-active="active"> Mountains  </a>
-              <a ui-sref="woods" ui-sref-active="active"> Woods  </a>
-              <a ui-sref="cities" ui-sref-active="active"> Cities  </a>
-           
-
-          <ui-view></ui-view>
+              <a ui-sref="walks.parks" ui-sref-active="active"> Parks  </a>
+              <a ui-sref="walks.beaches" ui-sref-active="active"> Beaches  </a>
+              <a ui-sref="walks.mountains" ui-sref-active="active"> Mountains  </a>
+              <a ui-sref="walks.woods" ui-sref-active="active"> Woods  </a>
+              <a ui-sref="walks.cities" ui-sref-active="active"> Cities  </a>       
   </ion-nav-view>
 
   <ion-footer-bar class="bar bar-footer bar-balanced">
-         <a ui-sref="parks" ui-sref-active="active"> <i class="icon ion-search"></i> </a>
-         <i class="icon ion-home"></i>
-         <i class="icon ion-heart"></i>
+         <a ui-sref="walks.parks" ui-sref-active="active"> <i class="icon ion-search"></i> </a>
+         <a ui-sref="walks.profile" ui-sref-active="active"> <i class="icon ion-home"></i> </a>
+         <a ui-sref="walks.liked" ui-sref-active="active"> <i class="icon ion-heart"></i> </a>
   </ion-footer-bar>

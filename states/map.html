@@ -5,9 +5,18 @@
      <ion-list>
         <ion-item>
         	{{place.text}} <br>
-        	<div class="rating">
-		           <p class="likes" ng-click="increment(place, item);"> <i class="icon ion-thumbsup"></i> {{ place.likes }} </p> <br>
-		           <p class="dislikes" ng-click="decrement(place, item);"> <i class="icon ion-thumbsdown"></i> {{ place.dislikes }} </p>
+        	<div class="">
+                <button class="button button-small" ng-click="increment(place, item);">
+                   Like This Place!
+                </button>
+    		           <p class="likes"> <i class="icon ion-thumbsup" ng-click="increment(place, item);"></i> {{ place.likes }} </p> <br>
+          </div>    
+
+          <div class="">
+            <button class="button button-small" ng-click="decrement(place, item);">
+               Dislike This Place!
+            </button>
+		           <p class="dislikes" > <i class="icon ion-thumbsdown" ng-click="decrement(place, item);"></i> {{ place.dislikes }} </p>
 	        </div>
         </ion-item>
 

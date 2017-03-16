@@ -41,7 +41,7 @@ ion-footer-bar {
 	background-color: #88ae49 !important;
 }
 
-ion-footer-bar i {
+ion-footer-bar a {
 	font-size: 30px;
 	color: #536f22 !important;
 	margin: auto;
@@ -81,8 +81,6 @@ ion-header-bar {
 	padding-left: 8%;
 	padding-top: 1%;
 }
-
-
 
 .likes {
 	padding: 2% 0 2% 10%;
