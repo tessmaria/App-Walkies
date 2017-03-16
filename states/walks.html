@@ -1,0 +1,22 @@
+
+  <ion-nav-bar class="bar-balanced">
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+  </ion-nav-bar>
+
+  <ion-nav-view class="has-header">
+              <a ui-sref="parks" ui-sref-active="active"> Parks  </a>
+              <a ui-sref="beaches" ui-sref-active="active"> Beaches  </a>
+              <a ui-sref="mountains" ui-sref-active="active"> Mountains  </a>
+              <a ui-sref="woods" ui-sref-active="active"> Woods  </a>
+              <a ui-sref="cities" ui-sref-active="active"> Cities  </a>
+           
+
+          <ui-view></ui-view>
+  </ion-nav-view>
+
+  <ion-footer-bar class="bar bar-footer bar-balanced">
+         <a ui-sref="parks" ui-sref-active="active"> <i class="icon ion-search"></i> </a>
+         <i class="icon ion-home"></i>
+         <i class="icon ion-heart"></i>
+  </ion-footer-bar>
