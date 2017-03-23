@@ -21,6 +21,7 @@
 .title {
 	color: #ffffff !important;
 	margin: auto;
+	font-family: 'Marck Script', cursive;
 }
 
 #signIn {
@@ -58,6 +59,13 @@ ion-header-bar {
 	background-color: #88ae49 !important;
 }
 
+ion-nav-view a {
+	font-size: 14px;
+	margin-left: 3%;
+	color: #536f22;
+	font-family: 'Raleway', sans-serif;
+}
+
 .pane {
 	margin-top: 5%;
 }
@@ -84,9 +92,16 @@ ion-header-bar {
 	width: 50%;
 }
 
-.placeName, .district {
+.placeName {
 	padding-left: 8%;
 	padding-top: 1%;
+	font-family: 'Marck Script', cursive;
+}
+
+.district {
+	padding-left: 8%;
+	padding-top: 1%;
+	font-family: 'Raleway', sans-serif;
 }
 
 .likes {
