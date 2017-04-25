@@ -60,5 +60,5 @@ angular.module('app', ['ionic', 'ui.router'])
                 name: 'liked'
             })
 
-        $urlRouterProvider.otherwise("/walks");
+        $urlRouterProvider.otherwise("/");
     })

@@ -1,3 +1,7 @@
+body {
+	max-width: 490px;
+}
+
 #wrapper {
 	width: 100%;
 	height: 100%;
@@ -138,3 +142,4 @@ ion-nav-view a {
 .clear {
 	clear: both;
 }
+
